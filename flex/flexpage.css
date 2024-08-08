@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: azure;
+    height: auto;
+}
+.container>h1{
+    text-align: center;
+    font-size: 100px;
+    
+}
+.container>span{
+   font-size: 20px;
+    text-align: center;
+    border: 1px solid red;
+   margin-left: 45%;
+   margin-bottom: 20px;
+    padding: 20px;
+    color: red;
+  
+   
+}
+.box1{
+ 
+    height: auto;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 30px;
+    gap:80px;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.box2{
+    
+    margin-top: 50px;
+    text-align: center;
+    background-color:ivory;
+    
+}
+.box2>h2{
+    font-size: 50px;
+}
+.box2>.innerbox{
+     
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+}
+.box2>.innerbox>.innerbox1,.innerbox2,.innerbox3{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+.box2>div>div{
+
+    width: 500px;
+}
+
+.box1>.card1,.card2,.card3{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 600px;  
+    width:600px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+   
+}
+.box1>.card1>img,.box1>.card2>img,.box1>.card3>img{
+  
+    width:70%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 60px;
+
+}
+.box1>.card2>img{
+    height: 160px;
+}
+.box1>.card3>img{
+    height: 160px;
+}
+
+.box1>.card1>.p1,.box1>.card2>.p1,.box1>.card3>.p1{
+    font-size: 20px;
+    color:rgb(0, 110, 255);
+    font-style:inherit;
+}
+.box1>.card1>.p2,.box1>.card2>.p2,.box1>.card3>.p2{
+    font-size: 30px;
+    color: black;
+  
+}
+.box1>.card1>.p3,.box1>.card2>.p3,.box1>.card3>.p3{
+    font-size: 30px;
+    color:darkgrey;
+
+}
